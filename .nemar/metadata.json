@@ -1,11 +1,21 @@
 {
   "version": "2.0",
-  "dataset_id": "on007463",
-  "source": "openneuro",
-  "source_id": "ds007463",
+  "pipeline_stage": "validated",
   "title": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Morgan Fogarty": {},
+    "Morgan Fogarty": {
+      "orcid": "0000-0003-1334-1923",
+      "affiliations": [
+        {
+          "name": "Imaging Science Doctoral Program, Washington University in St. Louis, St. Louis, MO, United States"
+        },
+        {
+          "name": "Mallinckrodt Institute of Radiology, Washington University School of Medicine, St. Louis, MO, United States"
+        }
+      ]
+    },
     "Sean M. Rafferty": {},
     "Zachary E. Markow": {},
     "Anthony C. O’Sullivan": {},
@@ -22,25 +32,69 @@
     "Edward J. Richter": {},
     "Joseph P. Culver": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007463.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007463",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007463",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1162/IMAG.a.54",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "",
-  "recording_modality": [
+  "modalities": [
+    "nirs",
     "anat",
-    "func",
-    "nirs"
+    "func"
   ],
-  "datatypes": [
-    "anat",
-    "func",
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".log",
+    ".mat",
+    ".md",
+    ".nii",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises multimodal neuroimaging data from 8 participants performing functional localizer and movie-viewing tasks acquired simultaneously with very-high-density diffuse optical tomography (VHD-DOT) and functional MRI. The dataset includes raw VHD-DOT data in SNIRF format and fMRI data in NIfTI format, along with preprocessed fMRI derivatives, enabling direct comparison and validation of VHD-DOT as a whole-head functional brain mapping modality.",
+  "methods_description": "Data were collected across multiple sessions per participant: sessions 1-2 included VHD-DOT acquisitions (SNIRF format) and sessions 3+ included fMRI acquisitions (NIfTI format). Participants completed functional localizer and movie-viewing tasks during imaging. Preprocessed fMRI data for comparison are provided in the derivatives folder.",
+  "keywords": [
+    {
+      "term": "diffuse optical tomography"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "functional neuroimaging"
+    },
+    {
+      "term": "brain mapping"
+    },
+    {
+      "term": "multimodal imaging"
+    },
+    {
+      "term": "SNIRF"
+    }
+  ],
+  "source_hash": "afe5571764c6de4804b3c52917511bf13065a1045103d02ab4b96282fbd10f79"
 }
