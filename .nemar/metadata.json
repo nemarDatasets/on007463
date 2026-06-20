@@ -1,0 +1,46 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007463",
+  "source": "openneuro",
+  "source_id": "ds007463",
+  "title": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
+  "authors": {
+    "Morgan Fogarty": {},
+    "Sean M. Rafferty": {},
+    "Zachary E. Markow": {},
+    "Anthony C. O’Sullivan": {},
+    "Calamity F. Svoboda": {},
+    "Tessa George": {},
+    "Kelsey King": {},
+    "Dana Wilhelm": {},
+    "Kalyan Tripathy": {},
+    "Emily M. Mugler": {},
+    "Stephanie Naufel": {},
+    "Allen Yin": {},
+    "Jason W. Trobaugh": {},
+    "Adam T. Eggebrecht": {},
+    "Edward J. Richter": {},
+    "Joseph P. Culver": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007463.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "",
+  "recording_modality": [
+    "anat",
+    "func",
+    "nirs"
+  ],
+  "datatypes": [
+    "anat",
+    "func",
+    "nirs"
+  ]
+}
