@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
+  "description": "This dataset comprises neuroimaging data from 8 participants performing functional localizer and movie-viewing tasks acquired simultaneously using Very High Density Diffuse Optical Tomography (VHD-DOT) and functional MRI. The dataset includes raw VHD-DOT data in SNIRF format from sessions 1-2 and fMRI data in NIfTI format from session 3 onwards, with preprocessed fMRI derivatives provided for direct comparison with optical neuroimaging measurements. Published in Imaging Neuroscience (2025).",
+  "methods_description": "Data were collected during functional localizer and movie-viewing tasks using concurrent Very High Density Diffuse Optical Tomography and fMRI acquisition. VHD-DOT data are provided in SNIRF format while fMRI data are in NIfTI format. Preprocessed fMRI data for comparison are included in the derivatives folder. Full methodological details are available in Fogarty et al. (2025).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,6 +34,44 @@
     "Edward J. Richter": {},
     "Joseph P. Culver": {}
   },
+  "keywords": [
+    {
+      "term": "diffuse optical tomography"
+    },
+    {
+      "term": "VHD-DOT"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "functional neuroimaging"
+    },
+    {
+      "term": "brain mapping"
+    },
+    {
+      "term": "optical imaging"
+    },
+    {
+      "term": "multimodal imaging"
+    },
+    {
+      "term": "concurrent imaging"
+    },
+    {
+      "term": "SNIRF"
+    },
+    {
+      "term": "validation"
+    },
+    {
+      "term": "functional localizer"
+    },
+    {
+      "term": "movie-viewing task"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007463.v1.1.1",
@@ -54,14 +94,14 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs",
     "anat",
     "func"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "254.1 GB (282 files)"
   ],
   "formats": [
     ".gz",
@@ -74,26 +114,17 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises multimodal neuroimaging data from 8 participants performing functional localizer and movie-viewing tasks acquired simultaneously with very-high-density diffuse optical tomography (VHD-DOT) and functional MRI. The dataset includes raw VHD-DOT data in SNIRF format and fMRI data in NIfTI format, along with preprocessed fMRI derivatives, enabling direct comparison and validation of VHD-DOT as a whole-head functional brain mapping modality.",
-  "methods_description": "Data were collected across multiple sessions per participant: sessions 1-2 included VHD-DOT acquisitions (SNIRF format) and sessions 3+ included fMRI acquisitions (NIfTI format). Participants completed functional localizer and movie-viewing tasks during imaging. Preprocessed fMRI data for comparison are provided in the derivatives folder.",
-  "keywords": [
+  "funding_references": [
     {
-      "term": "diffuse optical tomography"
+      "funder_name": "National Institutes of Health"
     },
     {
-      "term": "fMRI"
+      "funder_name": "National Institutes of Health",
+      "award_number": "Not specified in source metadata"
     },
     {
-      "term": "functional neuroimaging"
-    },
-    {
-      "term": "brain mapping"
-    },
-    {
-      "term": "multimodal imaging"
-    },
-    {
-      "term": "SNIRF"
+      "funder_name": "National Institutes of Health",
+      "award_number": "Award numbers not specified in available metadata"
     }
   ],
   "source_hash": "afe5571764c6de4804b3c52917511bf13065a1045103d02ab4b96282fbd10f79"
