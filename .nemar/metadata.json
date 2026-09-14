@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
-  "description": "This dataset comprises neuroimaging data from 8 participants performing functional localizer and movie-viewing tasks acquired simultaneously using Very High Density Diffuse Optical Tomography (VHD-DOT) and functional MRI. The dataset includes raw VHD-DOT data in SNIRF format from sessions 1-2 and fMRI data in NIfTI format from session 3 onwards, with preprocessed fMRI derivatives provided for direct comparison with optical neuroimaging measurements. Published in Imaging Neuroscience (2025).",
-  "methods_description": "Data were collected during functional localizer and movie-viewing tasks using concurrent Very High Density Diffuse Optical Tomography and fMRI acquisition. VHD-DOT data are provided in SNIRF format while fMRI data are in NIfTI format. Preprocessed fMRI data for comparison are included in the derivatives folder. Full methodological details are available in Fogarty et al. (2025).",
+  "description": "This dataset includes multimodal neuroimaging data from 8 participants who completed functional localizer and movie-viewing tasks using both Very High Density Diffuse Optical Tomography (VHD-DOT) and fMRI. VHD-DOT data are provided in SNIRF format, while fMRI data are provided in NIFTI format, with preprocessed fMRI data available in the derivatives folder for comparison purposes. The dataset supports validation of VHD-DOT as a functional brain mapping technique against fMRI.",
+  "methods_description": "Participants underwent multiple sessions: Sessions 1 and 2 involved VHD-DOT data collection (SNIRF format), while sessions 3 and beyond involved fMRI data collection (NIFTI format) during functional localizer and movie-viewing tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -36,55 +36,27 @@
   },
   "keywords": [
     {
-      "term": "diffuse optical tomography"
-    },
-    {
-      "term": "VHD-DOT"
+      "term": "Diffuse Optical Tomography"
     },
     {
       "term": "fMRI"
     },
     {
-      "term": "functional neuroimaging"
+      "term": "functional brain mapping"
     },
     {
-      "term": "brain mapping"
-    },
-    {
-      "term": "optical imaging"
-    },
-    {
-      "term": "multimodal imaging"
-    },
-    {
-      "term": "concurrent imaging"
-    },
-    {
-      "term": "SNIRF"
-    },
-    {
-      "term": "validation"
+      "term": "movie-viewing task"
     },
     {
       "term": "functional localizer"
     },
     {
-      "term": "movie-viewing task"
+      "term": "neuroimaging"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds007463.v1.1.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
       "identifier": "https://github.com/nemarDatasets/on007463",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007463",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -92,27 +64,17 @@
       "identifier": "10.1162/IMAG.a.54",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007463.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007463",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "resource_type_specific": "fNIRS Dataset",
-  "modalities": [
-    "nirs",
-    "anat",
-    "func"
-  ],
-  "sizes": [
-    "254.1 GB (282 files)"
-  ],
-  "formats": [
-    ".gz",
-    ".json",
-    ".log",
-    ".mat",
-    ".md",
-    ".nii",
-    ".snirf",
-    ".tsv",
-    ".yml"
   ],
   "funding_references": [
     {
@@ -127,5 +89,25 @@
       "award_number": "Award numbers not specified in available metadata"
     }
   ],
-  "source_hash": "afe5571764c6de4804b3c52917511bf13065a1045103d02ab4b96282fbd10f79"
+  "resource_type_specific": "fNIRS Dataset",
+  "modalities": [
+    "nirs",
+    "anat",
+    "func"
+  ],
+  "sizes": [
+    "237 GB (282 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".log",
+    ".mat",
+    ".md",
+    ".nii",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "846a7994aa4e83dbaccb1493939cc4ef3aa7ea485cacff270e2cf638fefa208c"
 }
