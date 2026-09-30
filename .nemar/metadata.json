@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
-  "description": "This dataset includes multimodal neuroimaging data from 8 participants who completed functional localizer and movie-viewing tasks using both Very High Density Diffuse Optical Tomography (VHD-DOT) and fMRI. VHD-DOT data are provided in SNIRF format, while fMRI data are provided in NIFTI format, with preprocessed fMRI data available in the derivatives folder for comparison purposes. The dataset supports validation of VHD-DOT as a functional brain mapping technique against fMRI.",
-  "methods_description": "Participants underwent multiple sessions: Sessions 1 and 2 involved VHD-DOT data collection (SNIRF format), while sessions 3 and beyond involved fMRI data collection (NIFTI format) during functional localizer and movie-viewing tasks.",
+  "description": "This dataset contains paired very high-density diffuse optical tomography (VHD-DOT) and fMRI recordings from 8 participants performing functional localizer and movie-viewing tasks. VHD-DOT data are stored in SNIRF format in the first two sessions per subject, while later sessions hold fMRI data in NIfTI format. Preprocessed fMRI data used for comparison with VHD-DOT are provided in the derivatives folder, supporting validation of whole-head optical brain mapping.",
+  "methods_description": "Each participant completed functional localizer and movie-viewing tasks during VHD-DOT sessions (sessions 1-2, SNIRF format) and separate fMRI sessions (session 3 onward, NIfTI format). Preprocessed fMRI data are provided for comparison with the VHD-DOT results.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -36,22 +36,27 @@
   },
   "keywords": [
     {
-      "term": "Diffuse Optical Tomography"
+      "term": "diffuse optical tomography"
     },
     {
       "term": "fMRI"
     },
     {
-      "term": "functional brain mapping"
+      "term": "functional neuroimaging"
     },
     {
-      "term": "movie-viewing task"
+      "term": "movie viewing"
     },
     {
       "term": "functional localizer"
     },
     {
-      "term": "neuroimaging"
+      "term": "SNIRF"
+    },
+    {
+      "term": "Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
     }
   ],
   "related_identifiers": [
