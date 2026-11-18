@@ -4,5 +4,7 @@
   "NIRSChannelCount": 20874,
   "NIRSSourceOptodeCount": 255,
   "NIRSDetectorOptodeCount": 252,
-  "RecordingDuration": 1142.5
+  "RecordingDuration": 1142.5,
+  "RecordingType": "continuous",
+  "ManufacturersModelName": "VHD-DOT (very high-density diffuse optical tomography system, Washington University)"
 }

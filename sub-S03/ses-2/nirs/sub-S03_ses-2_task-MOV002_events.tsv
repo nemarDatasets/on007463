@@ -1,4 +1,4 @@
 onset	duration	trial_type
-1	79	REST
-80	5015	MOVIE
-5095	0	REST
+0.128	10.112	REST
+10.24	641.92	MOVIE
+652.16	0	REST

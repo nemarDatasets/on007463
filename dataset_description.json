@@ -1,6 +1,6 @@
 {
   "Name": "Very-High-Density Diffuse Optical Tomography System Validation Dataset",
-  "BIDSVersion": "",
+  "BIDSVersion": "1.10.0",
   "License": "CC0",
   "Authors": [
     "Morgan Fogarty",
@@ -26,5 +26,21 @@
       "DOI": "doi:10.18112/openneuro.ds007463.v1.1.1"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.1.2",
+  "DatasetType": "raw",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1162/imag.a.54"
+  ],
+  "Funding": [
+    "U01EB027005",
+    "R01NS090874",
+    "R01EB03491902",
+    "R01MH122751",
+    "F31NS110261",
+    "T32EB014855"
+  ],
+  "HowToAcknowledge": "Please cite the associated paper (doi:10.1162/imag.a.54).",
+  "EthicsApprovals": [
+    "consent procedures followed the IRB protocol approved by the Human Research Protection Office at Washington University School of Medicine"
+  ]
 }
